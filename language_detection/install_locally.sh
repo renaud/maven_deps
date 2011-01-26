@@ -1,9 +1,9 @@
 #!/bin/sh
 
-FILE=langdetect-12-22-2010.jar
+FILE=langdetect-01-24-2011.jar
 GROUP_ID=com.cybozu.labs
 ARTIFACT_ID=langdetect
-VERSION=12.22.2010
+VERSION=01-24-2011
 
 mvn install:install-file -Dfile=$FILE  -DgroupId=$GROUP_ID -DartifactId=$ARTIFACT_ID -Dversion=$VERSION -Dpackaging=jar
 
